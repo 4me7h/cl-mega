@@ -1,0 +1,15 @@
+.btn {
+    &--tertiary {
+        @include link {
+            color: $color-black;
+            background-color: $color-tertiary;
+            text-transform: uppercase;
+            letter-spacing: 0.075rem;
+            font-weight: $fw-5;
+        }
+        @include hover {
+            color: $color-black !important;
+            background-color: darken($color-tertiary, 10%) !important;
+        }
+    }
+}

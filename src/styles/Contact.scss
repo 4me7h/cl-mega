@@ -1,0 +1,23 @@
+.contact {
+    padding: 0rem 0 4rem;
+    &__list {
+        @include reset-list;
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        @include media('lg') {
+            justify-content: space-between;
+        }
+        &__item {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+            border-radius: 10px;
+            width: 80%;
+            margin-bottom: 6rem;
+            @include media('lg') {
+                width: 30%;
+            }
+        }
+    }
+}
