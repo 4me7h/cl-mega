@@ -158,5 +158,8 @@ span {
         width: 30%; 
         border-top: 5px solid $color-black;
         margin: 0 auto;
+        &--white {
+            border-color: $color-white;
+        }
     }
 }

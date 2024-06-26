@@ -21,11 +21,11 @@ const Contact = () => {
                             <div className="headercontent__header">
                                 <Fade cascade triggerOnce direction="up"> 
                                 <div className='headercontent__header__content'>
-                                    <h3 className="text--subtitle">Contáctanos</h3>
-                                    <hr className='hr--basic'/>
+                                    <h3 className="text--subtitle text--white">Contáctanos</h3>
+                                    <hr className='hr--basic hr--basic--white'/>
                                 </div>  
                                 <div className="headercontent__content">
-                                    <p className="text--lead text-uppercase">
+                                    <p className="text--lead text-uppercase text--white">
                                         Ponte en contacto y déjanos saber como podemos ayudarte
                                     </p>    
                                 </div>
@@ -37,21 +37,21 @@ const Contact = () => {
                                 <CardContact 
                                     title = "Dirección" 
                                     description = {["13 Poniente #345", <br/>, "Col. Xamaipac 23094", <br/>, "Tuxtla Gutiérrez, Chiapas"]}
-                                    icon = {<FaLocationDot style={{color: '#742584', fontSize: '50px'}}/>}
+                                    icon = {<FaLocationDot style={{color: '#0070C0', fontSize: '50px'}}/>}
                                 />                                  
                             </li>
                             <li className='contact__list__item'>
                                 <CardContact 
                                     title = "Teléfono"
                                     description = {["961 3020 343", <br/>, "961 4576 897"]}
-                                    icon = {<FaPhone style={{color: '#742584', fontSize: '50px'}}/>}
+                                    icon = {<FaPhone style={{color: '#0070C0', fontSize: '50px'}}/>}
                                 />
                             </li>
                             <li className='contact__list__item'>
                                 <CardContact 
                                     title = "E-mail"
                                     description = {["elcorreovaaqui@gmail.com", <br />, "otrocorreo@gmail.com"]}
-                                    icon = {<FaEnvelope style={{color: '#742584', fontSize: '50px'}}/>}
+                                    icon = {<FaEnvelope style={{color: '#0070C0', fontSize: '50px'}}/>}
                                 />
                             </li>
                         </ul>

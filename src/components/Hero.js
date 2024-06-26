@@ -12,17 +12,17 @@ const Hero = () => {
     const { ref } = useParallax({ speed: 10 });
     return (
         <section className="hero--img" style={{backgroundImage: `${backgroundImage}`}}>
-            <div className="hero__overlay hero__overlay--white"></div>
+            <div className="hero__overlay"></div>
             <Container>
                 <Row>
                     <Col>
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Fade triggerOnce direction='right' cascade>
-                                    <p className='text--small text--secondary'>Megacable - La mejor conexión a tu alcance</p>
-                                    <h1 className="text--title text--tertiary">MEGA CABLE VENTAS TUXTLA</h1>
-                                    <h2 className="text--subtitle text-primary">¡Conéctate con la mejor señal en <span className='text--tertiary'>Tuxtla Gutiérrez!</span></h2>
-                                    <p className='text--body text--secondary'>Megacable ofrece servicios de Internet de alta velocidad, televisión digital y telefonía con tecnología avanzada para hogares y negocios en México, garantizando calidad y satisfacción a sus clientes.</p>
+                                    <p className='text--small text--white'>Megacable - La mejor conexión a tu alcance</p>
+                                    <h1 className="text--title text--white">MEGA CABLE VENTAS TUXTLA</h1>
+                                    <h2 className="text--subtitle text--white">¡Conéctate con la mejor señal en <span className='text--white'>Tuxtla Gutiérrez!</span></h2>
+                                    <p className='text--body text--white'>Megacable ofrece servicios de Internet de alta velocidad, televisión digital y telefonía con tecnología avanzada para hogares y negocios en México, garantizando calidad y satisfacción a sus clientes.</p>
                                     <a className="btn btn--secondary" href="http;//linux.com">Cotiza tu Paquete de MEGA CABLE</a>
                                 </Fade>
                             </div>

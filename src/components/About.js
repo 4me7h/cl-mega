@@ -24,11 +24,11 @@ export default function About() {
             <Col>
               <Fade cascade triggerOnce direction="left">
                 <div className='about__header__content'>
-                  <h3 className="text--subtitle text-center">Acerca de CLDEV</h3>
+                  <h3 className="text--subtitle text-center">¡MEGACABLE Tuxtla llámanos!</h3>
                 </div>  
                 <div className="about__header__content">
                   <p className='text--body text--white text-center'>
-                    Somos un equipo de expertos en marketing digital apasionados por ayudar a las empresas a alcanzar sus objetivos en línea. Con <strong><span className='text--tertiary'>más de 14 años de experiencia en diseño web y estrategias de conversión</span></strong>, estamos aquí para potenciar tu presencia en línea y maximizar tu retorno de inversión.
+                    Descubre los mejores paquetes de Internet, Televisión y Telefonía con Megacable, líder en servicios de telecomunicaciones en México. En Tuxtla Gutiérrez, ofrecemos soluciones personalizadas para cada hogar y negocio. 
                   </p>
                 </div>
               </Fade>
@@ -47,7 +47,7 @@ export default function About() {
           <Col>
             <div className="about__content">
               <p className='text--body'>
-                Nuestro enfoque se centra en combinar creatividad y análisis de datos para diseñar landing pages que no solo sean visualmente atractivas, sino también altamente funcionales. Nos comprometemos a entender las necesidades únicas de cada cliente y a proporcionar soluciones personalizadas que generen resultados reales. Confía en nosotros para transformar tus ideas en páginas de destino que conviertan visitantes en clientes.
+                Con velocidades de Internet ultrarrápidas, canales de televisión de alta definición y planes de telefonía accesibles, Megacable te conecta con lo que más te importa. ¡Contáctanos hoy y comienza a disfrutar de una conexión sin igual!
               </p>
             </div>
           </Col>
