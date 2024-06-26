@@ -21,12 +21,12 @@ function App() {
       <Element name="about">
         <About />
       </Element>
-      <Element name="services">
+      {/* <Element name="services">
         <Services />
-      </Element>
-      <Element name="team">
+      </Element> */}
+      {/* <Element name="team">
         <Team />
-      </Element>
+      </Element> */}
       <Element name="contact">
         <Contact />
       </Element>
