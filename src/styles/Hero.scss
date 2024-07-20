@@ -14,22 +14,22 @@
         position: absolute;
 
         &--white {
-            background-color: rgba($color-white, 0.7);
+            background-color: rgba($color-white, 1);
         }
     }
 
     //hero contenidos
     &__content {
-        color: white;
         display: flex;
         @include media('md') {
             align-items: center;
         }
         &__header {
             position: relative;   
-            text-align: left;
-            padding: 8rem 0;
-            max-width: 700px;
+            text-align: center;
+            padding: 6rem 0 8rem;
+            max-width: 900px;
+            margin: 0 auto;
         }
     }
 }

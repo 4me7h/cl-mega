@@ -17,4 +17,9 @@
         height: 100%;
         position: absolute;
     }
+
+    &__logo {
+        max-width: 150px;
+        margin-bottom: 0.5rem;
+    }
 }

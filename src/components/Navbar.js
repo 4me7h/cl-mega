@@ -19,7 +19,7 @@ const Navbar = () => {
                     <Col>
                         <div className="navBar__container">
                             <div className="navBar__col">
-                                <Link href="#" to="hero" smooth={true} duration={500} className="navBar__brand">MEGA TUXTLA</Link>
+                                <Link href="#" to="hero" smooth={true} duration={500} className="navBar__brand">Megacable | Tuxtla</Link>
                             </div>
                             <div className="navBar__col">
                                 <button className="navBar__toggle" onClick={toggleNavbar}>

@@ -16,6 +16,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "react-scroll-parallax": "^3.4.5",
+    "sass": "^1.77.8",
     "styled-components": "^6.0.7",
     "web-vitals": "^2.1.4"
   },
@@ -42,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "node-sass": "^7.0.3"
   }
 }

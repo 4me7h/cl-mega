@@ -69,7 +69,7 @@ span {
         font-size: $fs-md;
         text-transform: uppercase;
         letter-spacing: 0.25rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0;
         font-weight: $fw-6;
         @include media('xs') {
             font-size: $fs-xl;
@@ -125,6 +125,7 @@ span {
         margin-bottom: 1rem;
         letter-spacing: 0.02rem;
         line-height: 1.6;
+        font-weight: $fw-4;
         @include media('md') {
             font-size: $fs-sm;
         }
@@ -132,8 +133,9 @@ span {
 
     &--small {
         font-size: $fs-xs;
-        font-weight: $fw-4;
+        font-weight: $fw-5;
         letter-spacing: 0.1rem;
+        margin-bottom: 0;
     }
 
     &--white {
