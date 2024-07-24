@@ -1,0 +1,22 @@
+.cardpack {
+    text-align: center;
+    background-color: yellow;
+    &__text--description {
+        display: block;
+    }
+    &__text--megas {
+        display: block;
+    }
+    &__text--mesesmegas {
+        display: block;
+    }
+    &__text--telfija {
+        display: block;
+    }
+    &__text--precio {
+        display: block;
+    }
+    &__text--mesesprecio {
+        display: block;
+    }
+}

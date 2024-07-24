@@ -1,6 +1,12 @@
 .products {
+    padding: 0 0 6rem;
     &__header {
         padding: 2rem 0;
+        text-align: center;
+        &__content {
+            max-width: 850px;
+            margin: 0 auto;
+        }
     }
     &__list {
         @include reset-list;

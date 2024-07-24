@@ -12,7 +12,7 @@ const Contact = () => {
     return(
         <section className='contact'>
             <div className='polygon'>
-                <div className='polygon__top--left--white'></div>
+                <div className='polygon__top--left--primary'></div>
             </div>
             <Container>
                 <Row>

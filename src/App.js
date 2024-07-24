@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Hero from './components/Hero';
 // import Services from './components/Services';
+import Products from './components/Products';
 // import Team from './components/Team';
 import Contact from './components/Contact';
 
@@ -21,9 +22,9 @@ function App() {
       <Element name="about">
         <About />
       </Element>
-      {/* <Element name="services">
-        <Services />
-      </Element> */}
+      <Element name="products">
+        <Products />
+      </Element>
       {/* <Element name="team">
         <Team />
       </Element> */}

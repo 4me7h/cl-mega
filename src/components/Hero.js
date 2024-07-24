@@ -23,7 +23,7 @@ const Hero = () => {
                                     <img className="image__logo" alt="logo" src={logo}/>
                                     <p className='text--small text--primary'>Megacable - La mejor conexión a tu alcance</p>
                                     <h1 className="text--title">Megacable Tuxtla</h1>
-                                    <h2 className="text--subtitle text--primary">¡Conéctate con la mejor señal en <span className='    '>Tuxtla Gutiérrez!</span></h2>
+                                    <h2 className="text--subtitle text--primary">¡Conéctate con la mejor señal en <span className='    '><br />Tuxtla Gutiérrez!</span></h2>
                                     <p className='text--body'>Megacable en Tuxtla Gutiérrez ofrece servicios de Internet de alta velocidad, televisión digital y telefonía con tecnología avanzada para hogares y negocios en México, garantizando calidad y satisfacción a sus clientes.</p>
                                     <a className="btn btn--primary" target="__blank" href="https://wa.me/5219617044610/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20megacable%20internet">Cotiza tu Paquete de Megacable</a>
                                 </Fade>
