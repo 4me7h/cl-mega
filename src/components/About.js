@@ -7,15 +7,22 @@ import Gridimg from './Gridimg';
 
 import { Fade } from 'react-awesome-reveal';
 
-const imagePaths01 = [  
+const imagePaths = [  
   require('../images/img-02.jpg'),
-  require('../images/img-03.jpg'),
+  require('../images/img-01.jpg'),
   require('../images/img-04.jpg'),
-  require('../images/img-05.jpg'),
-  require('../images/img-02.jpg'),
+  require('../images/img-08.webp'),
+  require('../images/img-06.jpg'),
+  require('../images/img-11.jpg'),
   require('../images/img-03.jpg'),
-  require('../images/img-04.jpg'),
+  require('../images/img-12.jpg'),
   require('../images/img-05.jpg'),
+  require('../images/img-13.jpg'),
+  require('../images/img-15.jpg'),
+  require('../images/img-14.jpg'),
+  require('../images/img-07.jpg'),
+  require('../images/img-09.jpg'),
+  require('../images/img-16.jpg'),
 ];
 
 export default function About() {
@@ -28,7 +35,7 @@ export default function About() {
             <Col>
               <Fade cascade triggerOnce direction="left">
                 <div className='about__header__content'>
-                  <h3 className="text--subtitle text-center">¡MEGACABLE Tuxtla llámanos!</h3>
+                  <h3 className="text--subtitle text-center">¡Ahora más diversión!</h3>
                 </div>  
                 <div className="about__header__content">
                   <p className='text--body text--white text-center'>
@@ -44,14 +51,14 @@ export default function About() {
         <div className='polygon__bottom--right'></div>
       </div>
       <Gridimg 
-          imagePaths = {imagePaths01}
+          imagePaths = {imagePaths}
       />
       <Container>
         <Row>
           <Col>
             <div className="about__content">
               <p className='text--body'>
-                Con velocidades de Internet ultrarrápidas, canales de televisión de alta definición y planes de telefonía accesibles, Megacable te conecta con lo que más te importa. ¡Contáctanos hoy y comienza a disfrutar de una conexión sin igual!
+                Con velocidades de Internet ultrarrápidas y acceso a las aplicaciones de TV más populares como Netflix, HBO Max y Disney+, Megacable transforma tu experiencia de entretenimiento. Además, ofrecemos soluciones de conectividad diseñadas para mejorar la productividad y profesionalismo en tu oficina, asegurando que tanto el trabajo como el ocio se realicen con la máxima eficiencia. ¡Contáctanos hoy y descubre cómo podemos potenciar tu hogar y negocio con una conexión sin igual!
               </p>
             </div>
           </Col>

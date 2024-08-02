@@ -7,46 +7,73 @@ import CardPack from './CardPack';
 
 export default function Products() {
   return (
-    <div className="products">
-      <div className="products__container">
-        <div className="products__header">
-          <Container>
-            <Row>
-              <Col>
-                <div className="about__header__content">
-                  <h2 className="text--subtitle text-center">Paquetes</h2>
+    <Container>
+      <Row>
+        <Col>
+          <div className="products">
+            <div className="products__container">
+              <div className="products__content">
+                <div className="products__header">
+                  <div className="about__header__content">
+                    <h2 className="text--subtitle text-center text--white">PROMOCIONES</h2>
+                  </div>
+                  <div className="about__header__content">
+                    <p className='text--body text-center text--white'>
+                      ¡Transforma tu manera de conectarte con los paquetes de Megacable! Disfruta de Internet de alta velocidad, canales de televisión premium y telefonía confiable, todo en un solo lugar. 
+                    </p>
+                  </div>
                 </div>
-                <div className="about__header__content">
-                  <p className='text--body text--white text-center'>
-                    Descubre los mejores paquetes de Internet, Televisión y Telefonía con Megacable, líder en servicios de telecomunicaciones en México. En Tuxtla Gutiérrez, ofrecemos soluciones personalizadas para cada hogar y negocio. 
-                  </p>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-        <div className="products__content">
-          <ul className="products__list">
-            <li className="products__item">
-              <CardPack 
-                description={"Internet Ilimitado 60 Megas"}
-                megas={"120 Megas"}
-                mesesmegas={"x 6 meses*"}
-                telfija={"+ telefonía fija"}
-                precio={"$300* al mes"}
-                mesesprecio={"x 6 meses*"}
-              />
-            </li>
-            <li className="products__item">
-            asdf
-            </li>
-            <li className="products__item">
-            asdfsdf
-            </li>
-          </ul>
-        </div>
-      </div>
-        
-    </div>
+                <ul className="products__list">
+                  <li className="products__item">
+                    <CardPack 
+                      description={"Internet Ilimitado 60 Megas"}
+                      megas={"120 Megas"}
+                      mesesmegas={"x 6 meses*"}
+                      telfija={"+ Telefonía Fija"}
+                      precio={"$300"}
+                      preciomes={"*al mes"}
+                      mesesprecio={"x 6 meses*"}
+                    />
+                  </li>
+                  <li className="products__item">
+                    <CardPack 
+                      description={"Internet Ilimitado 100 Megas"}
+                      megas={"200 Megas"}
+                      mesesmegas={"x 6 meses*"}
+                      telfija={"+ Telefonía Fija"}
+                      precio={"$400* al mes"}
+                      mesesprecio={"x 6 meses*"}
+                    />
+                  </li>
+                  <li className="products__item">
+                    <CardPack 
+                      description={"Internet Ilimitado 250 Megas"}
+                      megas={"500 Megas"}
+                      mesesmegas={"x 6 meses*"}
+                      telfija={"+ Telefonía Fija"}
+                      precio={"$500* al mes"}
+                      mesesprecio={"x 6 meses*"}
+                    />
+                  </li>
+                  <li className="products__item">
+                    <CardPack 
+                      description={"Internet Ilimitado 500 Megas"}
+                      megas={"1000 Megas"}
+                      mesesmegas={"x 6 meses*"}
+                      telfija={"+ Telefonía Fija"}
+                      precio={"$600* al mes"}
+                      mesesprecio={"x 6 meses*"}
+                    />
+                  </li>
+                </ul>
+                <p className='text--body text-center'>
+                  En Tuxtla Gutiérrez, personalizamos cada paquete para satisfacer las necesidades únicas de tu hogar o negocio, asegurando que siempre estés conectado con lo que más te importa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </Col>
+      </Row>
+    </Container>
   )
 }

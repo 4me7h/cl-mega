@@ -9,7 +9,7 @@
         }
         @include hover {
             color: $color-white !important;
-            background-color: darken($color-primary, 10%) !important;
+            background-color: darken($color-tertiary, 10%) !important;
         }
     }
 
