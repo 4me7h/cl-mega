@@ -11,6 +11,7 @@ import CardPack from './CardPack';
 import imgview from '../images/logo-view.svg';
 import imgapptv from '../images/logo-amazon.png';
 import imgmegamil from '../images/img-megamil.png';
+import imgmegas from '../images/img-megas.jpg';
 
 export default function Products() {
   const [visibleDiv, setVisibleDiv] = useState('doblepack');
@@ -170,11 +171,18 @@ export default function Products() {
                   </Zoom>
                 )}
                 <Zoom triggerOnce cascade>
-                <div className='cardpack__img--container'>
-                  <a target="__blank" rel='norel' href="https://wa.me/5219617044610/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20megacable%20internet">
-                    <img src={imgmegamil} alt="megacable-en-tuxtla" class="cardpack__img--megamil"/>
-                  </a>
-                </div>
+                <ul className='cardpack__list-img'>
+                  <li className="cardpack__list-img__item">
+                    <a target="__blank" rel='norel' href="https://wa.me/5219617044610/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20megacable%20internet">
+                      <img src={imgmegas} alt="megacable-en-tuxtla" class="cardpack__list-img__img"/>
+                    </a>
+                  </li>
+                  <li className="cardpack__list-img__item">
+                    <a target="__blank" rel='norel' href="https://wa.me/5219617044610/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20megacable%20internet">
+                      <img src={imgmegamil} alt="megacable-en-tuxtla" class="cardpack__list-img__img"/>
+                    </a>
+                  </li>
+                </ul>
                 <p className='text--body text-center'>
                   En Tuxtla Gutiérrez, personalizamos cada paquete para satisfacer las necesidades únicas de tu hogar o negocio, asegurando que siempre estés conectado con lo que más te importa.
                 </p>

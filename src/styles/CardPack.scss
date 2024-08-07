@@ -28,18 +28,6 @@
         &--app {
             max-width: 90%;
         }
-        &--megamil {
-            max-width: 100%;
-            width: 460px;
-            margin: 0 auto 2rem;
-            transition: transform ease-out 0.25s;
-            &:hover {
-                transform: scale(1.1);
-            }
-        }
-        &--container {
-            text-align: center;
-        }
     }
     &__text {
         &--description {
@@ -91,6 +79,22 @@
             display: block;
             font-size: $fs-md;
             margin-bottom: 2rem;
+        }
+    }
+    &__list-img {
+        @include reset-list;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+        &__img {
+            width: 450px;
+            max-width: 100%;
+            transition: transform ease-in 0.25s;
+            &:hover {
+                transform: scale(1.1);
+            }
+            
         }
     }
 }
