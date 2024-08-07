@@ -59,9 +59,11 @@ export default function About() {
         <Row>
           <Col>
             <div className="about__content">
+              <Fade triggerOnce>
               <p className='text--body'>
                 Con velocidades de Internet ultrarrápidas y acceso a las aplicaciones de TV más populares como Netflix, HBO Max y Disney+, Megacable transforma tu experiencia de entretenimiento. Además, ofrecemos soluciones de conectividad diseñadas para mejorar la productividad y profesionalismo en tu oficina, asegurando que tanto el trabajo como el ocio se realicen con la máxima eficiencia. ¡Contáctanos hoy y descubre cómo podemos potenciar tu hogar y negocio con una conexión sin igual!
               </p>
+              </Fade>
             </div>
           </Col>
         </Row>

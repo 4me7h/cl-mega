@@ -5,6 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import { Slide, Zoom } from 'react-awesome-reveal';
+
 import CardPack from './CardPack';
 import imgview from '../images/logo-view.svg';
 import imgapptv from '../images/logo-amazon.png';
@@ -19,14 +21,16 @@ export default function Products() {
         <Container>
           <Row>
             <Col>
-                <div className="about__header__content">
-                  <h2 className="text--subtitle text-center text--white">PROMOCIONES</h2>
-                </div>
-                <div className="about__header__content">
-                  <p className='text--body text-center text--white'>
-                    ¡Transforma tu manera de conectarte con los paquetes de Megacable! Disfruta de Internet de alta velocidad, canales de televisión premium y telefonía confiable, todo en un solo lugar. 
-                  </p>
-                </div>
+              <Slide triggerOnce cascade>
+              <div className="about__header__content">
+                <h2 className="text--subtitle text-center text--white">PROMOCIONES</h2>
+              </div>
+              <div className="about__header__content">
+                <p className='text--body text-center text--white'>
+                  ¡Transforma tu manera de conectarte con los paquetes de Megacable! Disfruta de Internet de alta velocidad, canales de televisión premium y telefonía confiable, todo en un solo lugar. 
+                </p>
+              </div>
+              </Slide>
             </Col>
           </Row>
         </Container>
@@ -39,14 +43,18 @@ export default function Products() {
           <Col>
             <div className="products__container">
               <div className="products__content">
+                <Slide triggerOnce cascade>
                 <div className='products__buttons'>
                   <button className="products__buttons__item btn--primary" onClick={() => setVisibleDiv('doblepack')}>Doble Pack</button>
                   <button className="products__buttons__item btn--primary" onClick={() => setVisibleDiv('triplepack')}>Triple Pack</button>
                 </div>
+                
                 <p className='text--lead text-center mb-4'>
                   (Cliente Nuevo)
                 </p>
+                </Slide>
                 {visibleDiv === 'doblepack' && (
+                  <Zoom triggerOnce cascade>
                   <ul className="products__list doblepack">
                     <li className="products__item">
                       <CardPack 
@@ -93,8 +101,10 @@ export default function Products() {
                       />
                     </li>
                   </ul>
+                  </Zoom>
                 )}
                 {visibleDiv === 'triplepack' && (
+                  <Zoom triggerOnce cascade>
                   <ul className="products__list triplepack">
                     <li className="products__item">
                       <CardPack 
@@ -157,7 +167,9 @@ export default function Products() {
                       />
                     </li>
                   </ul>
+                  </Zoom>
                 )}
+                <Zoom triggerOnce cascade>
                 <div className='cardpack__img--container'>
                   <a target="__blank" rel='norel' href="https://wa.me/5219617044610/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20megacable%20internet">
                     <img src={imgmegamil} alt="megacable-en-tuxtla" class="cardpack__img--megamil"/>
@@ -166,6 +178,7 @@ export default function Products() {
                 <p className='text--body text-center'>
                   En Tuxtla Gutiérrez, personalizamos cada paquete para satisfacer las necesidades únicas de tu hogar o negocio, asegurando que siempre estés conectado con lo que más te importa.
                 </p>
+                </Zoom>
               </div>
             </div>
           </Col>

@@ -25,10 +25,6 @@ function App() {
       <Element name="about">
         <About />
       </Element>
-      
-      {/* <Element name="team">
-        <Team />
-      </Element> */}
       <Element name="contact">
         <Contact />
       </Element>
