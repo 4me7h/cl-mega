@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardPack = ({description, megas, mesesmegas, telfija, precio, mesesprecio, preciomes}) => {
+const CardPack = ({description, megas, mesesmegas, telfija, precio, mesesprecio, preciomes, imgview, textview, imgapptv, textapptv,}) => {
     return(
         <div className="cardpack">
             <div className="cardpack__content">
@@ -13,9 +13,25 @@ const CardPack = ({description, megas, mesesmegas, telfija, precio, mesesprecio,
                 <span class="cardpack__text cardpack__text--mesesmegas">
                     {mesesmegas}
                 </span>
+                {imgview && (
+                    <img src={imgview} alt="imgview" className='cardpack__img--view'/>
+                )}
+                {textview && (
+                    <span class="cardpack__text cardpack__text--view">
+                        {textview}
+                    </span>
+                )}
                 <span class="cardpack__text cardpack__text--telfija">
                     {telfija}
                 </span>
+                {imgapptv && (
+                    <img src={imgapptv} alt="amazon-prime" className='cardpack__img--app' />
+                )}
+                {textapptv && (
+                    <span class="cardpack__text cardpack__text--apptv">
+                        {textapptv}
+                    </span>
+                )}
                 <span class="cardpack__text cardpack__text--precio">
                     {precio} <span class="cardpack__text cardpack__text--preciomes">{preciomes}</span>
                 </span>

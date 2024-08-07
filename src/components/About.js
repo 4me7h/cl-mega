@@ -27,15 +27,17 @@ const imagePaths = [
 
 export default function About() {
   return (
-  <>
     <section className="about">
+      <div className='polygon'>
+        <div className='polygon__top--left'></div>
+      </div>
       <div className="about__header">
         <Container>
           <Row>
             <Col>
               <Fade cascade triggerOnce direction="left">
                 <div className='about__header__content'>
-                  <h3 className="text--subtitle text-center">¡Ahora más diversión!</h3>
+                  <h3 className="text--subtitle text-center text-uppercase">¡Ahora más diversión!</h3>
                 </div>  
                 <div className="about__header__content">
                   <p className='text--body text--white text-center'>
@@ -64,8 +66,6 @@ export default function About() {
           </Col>
         </Row>
       </Container>
-     
     </section>
-  </>
   )
 }

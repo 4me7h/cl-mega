@@ -15,45 +15,82 @@
             background-color: $color-tertiary;
         }
     }
-    
-
     &__content {
         padding: 4rem 0 4rem;
         width: 100%;
         text-align: center;
     }
-
-    &__text--description {
-        display: block;
-        margin-bottom: 0;
+    &__img {
+        &--view {
+            max-width: 60%;
+            margin-bottom:1rem;
+        }
+        &--app {
+            max-width: 90%;
+        }
+        &--megamil {
+            max-width: 100%;
+            width: 460px;
+            margin: 0 auto 2rem;
+            transition: transform ease-out 0.25s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        &--container {
+            text-align: center;
+        }
     }
-    &__text--megas {
-        display: block;
-        font-size: $fs-bg;
-        margin-bottom: 0;
-        line-height: 1;
-    }
-    &__text--mesesmegas {
-        display: block;
-        color: $color-primary;
-        margin-bottom: 4rem;
-    }
-    &__text--telfija {
-        display: block;
-        letter-spacing: 0.1rem;
-    }
-    &__text--precio {
-        display: block;
-        font-size: $fs-xl;
-        line-height: 1;
-    }
-    &__text--preciomes {
-        display: inline-block;
-        font-size: $fs-sm;
-    }
-    &__text--mesesprecio {
-        display: block;
-        font-size: $fs-md;
-        margin-bottom: 2rem;
+    &__text {
+        &--description {
+            display: block;
+            margin-bottom: 0;
+        }
+        &--megas {
+            display: block;
+            font-size: $fs-bg;
+            margin-bottom: 0;
+            line-height: 1;
+        }
+        &--mesesmegas {
+            display: block;
+            color: $color-primary;
+            margin-bottom: 2.5rem;
+            font-size: $fs-md;
+        }
+        &--view {
+            display: block;
+            font-size: $fs-mn;
+            margin-bottom: 1.5rem;
+        }
+        &--telfija {
+            display: block;
+            letter-spacing: 0.1rem;
+            margin-bottom: 1.5rem;
+            font-size: $fs-mn;
+        }
+        &--apptv {
+            display: block;
+            text-transform: uppercase;
+            font-size: $fs-mn;
+            margin-bottom: 1.5rem;
+            color: $color-mega-gray;
+            font-weight: $fw-5;
+        }
+        &--precio {
+            display: block;
+            font-size: $fs-bg;
+            line-height: 1;
+            font-weight: $fw-6;
+        }
+        &--preciomes {
+            display: inline-block;
+            font-size: $fs-sm;
+        }
+        &--mesesprecio {
+            display: block;
+            font-size: $fs-md;
+            margin-bottom: 2rem;
+        }
     }
 }
