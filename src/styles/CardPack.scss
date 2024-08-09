@@ -87,6 +87,11 @@
         flex-wrap: wrap;
         justify-content: center;
         margin-bottom: 2rem;
+        &__item {
+            &:first-child {
+                margin-top: 2rem;
+            } 
+        }
         &__img {
             width: 450px;
             max-width: 100%;
@@ -94,7 +99,6 @@
             &:hover {
                 transform: scale(1.1);
             }
-            
         }
     }
 }
