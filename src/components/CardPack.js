@@ -25,7 +25,7 @@ const CardPack = ({description, megas, mesesmegas, telfija, precio, mesesprecio,
                     {telfija}
                 </span>
                 {imgapptv && (
-                    <img src={imgapptv} alt="amazon-prime" className='cardpack__img--app' />
+                    <img src={imgapptv} alt="netflix-app" className='cardpack__img--app' />
                 )}
                 {textapptv && (
                     <span class="cardpack__text cardpack__text--apptv">

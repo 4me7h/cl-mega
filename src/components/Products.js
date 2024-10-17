@@ -9,7 +9,7 @@ import { Slide, Zoom } from 'react-awesome-reveal';
 
 import CardPack from './CardPack';
 import imgview from '../images/logo-view.svg';
-import imgapptv from '../images/logo-amazon.png';
+import imgapptv from '../images/logo-netflix.png';
 import imgmegamil from '../images/img-megamil.png';
 import imgmegas from '../images/img-megas.jpg';
 
@@ -46,6 +46,7 @@ export default function Products() {
               <div className="products__content">
                 <Slide triggerOnce cascade>
                 <div className='products__buttons'>
+                  <button className="products__buttons__item btn--primary" onClick={() => setVisibleDiv('basicpack')}>Basic Pack</button>
                   <button className="products__buttons__item btn--primary" onClick={() => setVisibleDiv('doblepack')}>Doble Pack</button>
                   <button className="products__buttons__item btn--primary" onClick={() => setVisibleDiv('triplepack')}>Triple Pack</button>
                 </div>
@@ -54,9 +55,9 @@ export default function Products() {
                   (Cliente Nuevo)
                 </p>
                 </Slide>
-                {visibleDiv === 'doblepack' && (
+                {visibleDiv === 'basicpack' && (
                   <Zoom triggerOnce cascade>
-                  <ul className="products__list doblepack">
+                  <ul className="products__list basicpack">
                     <li className="products__item">
                       <CardPack 
                         description={"Internet Ilimitado 60 Megas"}
@@ -104,6 +105,64 @@ export default function Products() {
                   </ul>
                   </Zoom>
                 )}
+                {visibleDiv === 'doblepack' && (
+                  <Zoom triggerOnce cascade>
+                  <ul className="products__list doblepack">
+                    <li className="products__item">
+                      <CardPack 
+                        description={"Doble Ilimitado 60 Megas"}
+                        megas={"120 Megas"}
+                        mesesmegas={"x 6 meses*"}
+                        telfija={"+ Telefonía Fija"}
+                        imgapptv={imgapptv}
+                        textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
+                        precio={"$360"}
+                        preciomes={"*al mes"}
+                        mesesprecio={"x 3 meses*"}
+                      />
+                    </li>
+                    <li className="products__item">
+                      <CardPack 
+                        description={"Internet Ilimitado 100 Megas"}
+                        megas={"200 Megas"}
+                        mesesmegas={"x 6 meses*"}
+                        telfija={"+ Telefonía Fija"}
+                        imgapptv={imgapptv}
+                        textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
+                        precio={"$460"}
+                        preciomes={"*al mes"}
+                        mesesprecio={"x 3 meses*"}
+                      />
+                    </li>
+                    <li className="products__item">
+                      <CardPack 
+                        description={"Internet Ilimitado 250 Megas"}
+                        megas={"500 Megas"}
+                        mesesmegas={"x 6 meses*"}
+                        telfija={"+ Telefonía Fija"}
+                        imgapptv={imgapptv}
+                        textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
+                        precio={"$560"}
+                        preciomes={"*al mes"}
+                        mesesprecio={"x 3 meses*"}
+                      />
+                    </li>
+                    <li className="products__item">
+                      <CardPack 
+                        description={"Internet Ilimitado 500 Megas"}
+                        megas={"1000 Megas"}
+                        mesesmegas={"x 6 meses*"}
+                        telfija={"+ Telefonía Fija"}
+                        imgapptv={imgapptv}
+                        textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
+                        precio={"$660"}
+                        preciomes={"*al mes"}
+                        mesesprecio={"x 3 meses*"}
+                      />
+                    </li>
+                  </ul>
+                  </Zoom>
+                )}
                 {visibleDiv === 'triplepack' && (
                   <Zoom triggerOnce cascade>
                   <ul className="products__list triplepack">
@@ -116,10 +175,10 @@ export default function Products() {
                         imgview={imgview}
                         textview={["Más de 80 canales", <br /> ,"+ De 25,000 horas", <br />, "de películas y series"]}
                         imgapptv={imgapptv}
-                        textapptv={"X 6 meses cortesía de Mega"}
-                        precio={"$499"}
+                        textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
+                        precio={"$510"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 6 meses*"}
+                        mesesprecio={"x 3 meses*"}
                       />
                     </li>
                     <li className="products__item">
@@ -131,10 +190,10 @@ export default function Products() {
                         imgview={imgview}
                         textview={["Más de 80 canales", <br /> ,"+ De 25,000 horas", <br />, "de películas y series"]}
                         imgapptv={imgapptv}
-                        textapptv={"X 6 meses cortesía de Mega"}
-                        precio={"$599"}
+                        textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
+                        precio={"$610"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 6 meses*"}
+                        mesesprecio={"x 3 meses*"}
                       />
                     </li>
                     <li className="products__item">
@@ -146,10 +205,10 @@ export default function Products() {
                         imgview={imgview}
                         textview={["Más de 80 canales", <br /> ,"+ De 25,000 horas", <br />, "de películas y series"]}
                         imgapptv={imgapptv}
-                        textapptv={"X 6 meses cortesía de Mega"}
-                        precio={"$699"}
+                        textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
+                        precio={"$710"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 6 meses*"}
+                        mesesprecio={"x 3 meses*"}
                       />
                     </li>
                     <li className="products__item">
@@ -161,10 +220,10 @@ export default function Products() {
                         imgview={imgview}
                         textview={["Más de 80 canales", <br /> ,"+ De 25,000 horas", <br />, "de películas y series"]}
                         imgapptv={imgapptv}
-                        textapptv={"X 6 meses cortesía de Mega"}
-                        precio={"$799"}
+                        textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
+                        precio={"$810"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 6 meses*"}
+                        mesesprecio={"x 3 meses*"}
                       />
                     </li>
                   </ul>
