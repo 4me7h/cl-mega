@@ -110,7 +110,7 @@ export default function Products() {
                   <ul className="products__list doblepack">
                     <li className="products__item">
                       <CardPack 
-                        description={"Doble Ilimitado 60 Megas"}
+                        description={"Internet Ilimitado 60 Megas"}
                         megas={"120 Megas"}
                         mesesmegas={"x 6 meses*"}
                         telfija={"+ Telefonía Fija"}
@@ -118,7 +118,7 @@ export default function Products() {
                         textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
                         precio={"$360"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 3 meses*"}
+                        mesesprecio={"x 6 meses*"}
                       />
                     </li>
                     <li className="products__item">
@@ -131,7 +131,7 @@ export default function Products() {
                         textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
                         precio={"$460"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 3 meses*"}
+                        mesesprecio={"x 6 meses*"}
                       />
                     </li>
                     <li className="products__item">
@@ -144,7 +144,7 @@ export default function Products() {
                         textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
                         precio={"$560"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 3 meses*"}
+                        mesesprecio={"x 6 meses*"}
                       />
                     </li>
                     <li className="products__item">
@@ -157,7 +157,7 @@ export default function Products() {
                         textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
                         precio={"$660"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 3 meses*"}
+                        mesesprecio={"x 6 meses*"}
                       />
                     </li>
                   </ul>
@@ -170,7 +170,7 @@ export default function Products() {
                       <CardPack 
                         description={"Internet Ilimitado 60 Megas"}
                         megas={"120 Megas"}
-                        mesesmegas={"x 6 meses*"}
+                        mesesmegas={"x 6 meses* Simétrico"}
                         telfija={"+ Telefonía Fija"}
                         imgview={imgview}
                         textview={["Más de 80 canales", <br /> ,"+ De 25,000 horas", <br />, "de películas y series"]}
@@ -178,14 +178,14 @@ export default function Products() {
                         textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
                         precio={"$510"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 3 meses*"}
+                        mesesprecio={"x 6 meses*"}
                       />
                     </li>
                     <li className="products__item">
                       <CardPack 
                         description={"Internet Ilimitado 100 Megas"}
                         megas={"200 Megas"}
-                        mesesmegas={"x 6 meses*"}
+                        mesesmegas={"x 6 meses* Simétrico"}
                         telfija={"+ Telefonía Fija"}
                         imgview={imgview}
                         textview={["Más de 80 canales", <br /> ,"+ De 25,000 horas", <br />, "de películas y series"]}
@@ -193,14 +193,14 @@ export default function Products() {
                         textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
                         precio={"$610"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 3 meses*"}
+                        mesesprecio={"x 6 meses*"}
                       />
                     </li>
                     <li className="products__item">
                       <CardPack 
                         description={"Internet Ilimitado 250 Megas"}
                         megas={"500 Megas"}
-                        mesesmegas={"x 6 meses*"}
+                        mesesmegas={"x 6 meses* Simétrico"}
                         telfija={"+ Telefonía Fija"}
                         imgview={imgview}
                         textview={["Más de 80 canales", <br /> ,"+ De 25,000 horas", <br />, "de películas y series"]}
@@ -208,14 +208,14 @@ export default function Products() {
                         textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
                         precio={"$710"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 3 meses*"}
+                        mesesprecio={"x 6 meses*"}
                       />
                     </li>
                     <li className="products__item">
                       <CardPack 
                         description={"Internet Ilimitado 500 Megas"}
                         megas={"1000 Megas"}
-                        mesesmegas={"x 6 meses*"}
+                        mesesmegas={"x 6 meses* Simétrico"}
                         telfija={"+ Telefonía Fija"}
                         imgview={imgview}
                         textview={["Más de 80 canales", <br /> ,"+ De 25,000 horas", <br />, "de películas y series"]}
@@ -223,7 +223,7 @@ export default function Products() {
                         textapptv={["Estándar con anuncios", <br />, "2 dispositivos Full HD"]}
                         precio={"$810"}
                         preciomes={"*al mes"}
-                        mesesprecio={"x 3 meses*"}
+                        mesesprecio={"x 6 meses*"}
                       />
                     </li>
                   </ul>
